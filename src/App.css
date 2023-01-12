@@ -36,3 +36,50 @@
     transform: rotate(360deg);
   }
 }
+
+
+.navbar{
+  background-color: #282c34;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 100px;
+  color: white;
+}
+.navbar ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.navbar ul li a{
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+}
+.navbar ul li a.active{
+  border-bottom: 1px solid white;
+}
+
+
+
+
+
+.Product-nav nav ul{
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  
+}
+.Product-nav nav ul li a{
+  margin-left: 20px;
+  text-decoration: none;
+  color: #282c34;
+  padding: 2px 5px;
+}
+.Product-nav nav ul li a.active{
+  color: #61dafb;
+}
+.Product-nav nav ul li a:hover{
+  background-color: #61dafb;
+  border-radius: 8px;
+  padding: 2px 5px;
+}
